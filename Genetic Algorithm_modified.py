@@ -1,3 +1,4 @@
+!pip install streamlit
 import streamlit as st
 import random
 import time
@@ -142,6 +143,5 @@ with st.form("my_form"):
 
     if calculate:
         main(POP_SIZE, MUT_RATE, TARGET, GENES)
-
 
 
