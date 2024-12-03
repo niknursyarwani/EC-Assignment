@@ -1,5 +1,4 @@
-!pip install streamlit
-import streamlit as st
+import streamlet as st
 import random
 import time
 
